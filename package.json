@@ -1,0 +1,19 @@
+{
+  "name": "com.k.services",
+  "displayName": "k.Services",
+  "version": "0.0.1",
+  "unity": "6000.0",
+  "author": {
+    "name": "k0fe"
+  },
+  "hideInEditor": false,
+  "description": "Basic functionality for services",
+  "keywords": [
+    "Service",
+    "ScriptableObject"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xk0fe/k.services"
+  }
+}
