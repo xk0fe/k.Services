@@ -7,5 +7,9 @@ namespace k.Services
         public virtual void Initialize()
         {
         }
+        
+        public virtual void Update()
+        {
+        }
     }
 }
