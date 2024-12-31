@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace k.Services
+namespace Packaged.k.Services
 {
     public class ServiceInitializer : MonoBehaviour
     {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace k.Services
+namespace Packaged.k.Services
 {
     public class BaseScriptableService : ScriptableObject
     {

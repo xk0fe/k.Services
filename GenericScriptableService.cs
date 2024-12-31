@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace k.Services
+namespace Packaged.k.Services
 {
     public class GenericScriptableService<T> : BaseScriptableService where T : GenericScriptableService<T>
     {
