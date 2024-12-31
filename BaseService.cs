@@ -1,4 +1,4 @@
-﻿namespace Packaged.k.Services
+﻿namespace k.Services
 {
     public class BaseService<T> where T : new()
     {

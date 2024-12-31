@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Packaged.k.Services
+namespace k.Services
 {
     [CreateAssetMenu(menuName = "Services/ServiceInitializer")]
     public class ScriptableServiceInitializer : GenericScriptableService<ScriptableServiceInitializer>
