@@ -12,6 +12,7 @@
     "Service",
     "ScriptableObject"
   ],
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/xk0fe/k.services"
