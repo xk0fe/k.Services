@@ -35,9 +35,5 @@ namespace k.Services
         {
             _instance = (T)this;
         }
-
-        public virtual void Update()
-        {
-        }
     }
 }
