@@ -13,7 +13,18 @@ namespace k.Services
             base.Initialize();
             foreach (var service in _services)
             {
+                if (service == null) continue;
                 service.Initialize();
+            }
+        }
+
+        public override void Update()
+        {
+            base.Update();
+            foreach (var service in _services)
+            {
+                if (service == null) continue;
+                service.Update();
             }
         }
     }
