@@ -1,15 +1,16 @@
 ﻿using System;
+using k.Services.Interfaces;
 using UnityEngine;
 
-namespace k.Services
+namespace k.Services.Bases
 {
-    public class BaseScriptableService : ScriptableObject, IDisposable
+    public class BaseScriptableService : ScriptableObject, IService, IDisposable
     {
         public virtual void Initialize()
         {
         }
         
-        public virtual void Update()
+        public virtual void OnUpdate()
         {
         }
 

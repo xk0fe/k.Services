@@ -41,7 +41,7 @@ namespace k.Services
                     Debug.LogWarning($"Null initializer found in {name}");
                     continue;
                 }
-                service.Update();
+                service.OnUpdate();
             }
         }
     }

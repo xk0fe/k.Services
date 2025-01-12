@@ -1,4 +1,4 @@
-﻿namespace k.Services
+﻿namespace k.Services.Bases
 {
     public class BaseService<T> where T : new()
     {
