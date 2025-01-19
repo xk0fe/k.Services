@@ -1,10 +1,13 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace k.Services
 {
     public class ServiceInitializer : MonoBehaviour
     {
+        public UnityEvent OnInitializationComplete;
+        
         [SerializeField] private List<ScriptableServiceInitializer> _initializers;
         
         private void Awake()
@@ -24,6 +27,8 @@ namespace k.Services
                 }
                 service.Initialize();
             }
+            
+            OnInitializationComplete?.Invoke();
         }
 
         private void Update()
