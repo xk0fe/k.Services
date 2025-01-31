@@ -1,15 +1,8 @@
-﻿namespace k.Services.Bases
-{
-    public class BaseService<T> where T : new()
-    {
-        public static T Instance
-        {
-            get
-            {
-                if (_instance == null)
-                {
-                    _instance = new T();
-                }
+﻿namespace k.Services.Bases {
+    public class BaseService<T> where T : new() {
+        public static T Instance {
+            get {
+                if (_instance == null) _instance = new T();
 
                 return _instance;
             }
